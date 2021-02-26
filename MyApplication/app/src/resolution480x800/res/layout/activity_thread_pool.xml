@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.activitys.ThreadPoolActivity">
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:hint="请输入线程池的最大线程数"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="点击我，执行线程池"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:textSize="30px"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

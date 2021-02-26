@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.example.administrator.myapplication.views.CameraSurfaceView
+        android:id="@+id/sv_camera_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30px"
+        android:onClick="onClick"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:text="拍照"
+        android:textSize="20px"/>
+
+</RelativeLayout>

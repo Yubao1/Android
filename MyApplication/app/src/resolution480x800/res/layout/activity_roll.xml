@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.activitys.RollActivity">
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:background="#00FF00"
+        android:onClick="onClick"
+        android:text="点击"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/text_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.androidart.activites.DrawableActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_bitmap_drawable"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="BitmapDrawable的使用"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_shape_drawable"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="ShapeDrawable的使用"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_nine_patch_drawable"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="NinePatchDrawable的使用"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_layer_drawable"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="LayerDrawable的使用"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_state_list_drawable"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="StateListDrawable的使用"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_level_list_drawable"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="LevelListDrawable的使用"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_transition_drawable"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="TransitionDrawable的使用"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_insert_drawable"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="InsertDrawable的使用"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_scale_drawable"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="ScaleDrawable的使用"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_clip_drawable"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="ClipDrawable的使用"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_custom_drawable"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="自定义Drawable的使用案例1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_custom_drawable_2"
+            android:layout_width="match_parent"
+            android:onClick="onClick"
+            android:text="自定义Drawable的使用案例2"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

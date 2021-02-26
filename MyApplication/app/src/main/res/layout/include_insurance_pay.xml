@@ -1,0 +1,181 @@
+<LinearLayout
+    android:id="@+id/ll_include_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="836px"
+        android:background="@drawable/bg_insurance_phone_price_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_actual_pay"
+            android:layout_width="wrap_content"
+            android:textColor="#E02020"
+            android:textSize="45px"
+            android:layout_marginTop="129px"
+            android:layout_marginLeft="201px"
+            android:text="@string/insurance_zfb_pay_price_hint_5"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_left_content_1"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/tv_actual_pay"
+            android:textColor="#333333"
+            android:textSize="36px"
+            android:layout_marginTop="28px"
+            android:layout_marginLeft="201px"
+            android:text="@string/insurance_pay_text_3"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_left_content_2"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/tv_left_content_1"
+            android:textColor="#333333"
+            android:textSize="36px"
+            android:layout_marginTop="28px"
+            android:layout_alignLeft="@id/tv_left_content_1"
+            android:text="@string/insurance_pay_text_4"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_left_content_3"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/tv_left_content_2"
+            android:textColor="#333333"
+            android:textSize="36px"
+            android:layout_marginTop="28px"
+            android:layout_alignLeft="@id/tv_left_content_1"
+            android:text="@string/insurance_pay_text_5"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_left_content_4"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/tv_left_content_3"
+            android:textColor="#333333"
+            android:textSize="36px"
+            android:layout_marginTop="28px"
+            android:layout_alignLeft="@id/tv_left_content_1"
+            android:text="@string/insurance_pay_text_6"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_left_content_5"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/tv_left_content_4"
+            android:textColor="#333333"
+            android:textSize="36px"
+            android:layout_marginTop="28px"
+            android:layout_alignLeft="@id/tv_left_content_1"
+            android:text="@string/insurance_pay_text_7"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_left_content_6"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/tv_left_content_5"
+            android:textColor="#333333"
+            android:textSize="36px"
+            android:layout_marginTop="28px"
+            android:layout_alignLeft="@id/tv_left_content_1"
+            android:text="@string/insurance_pay_text_8"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_right_content_1"
+            android:layout_width="wrap_content"
+            android:layout_alignTop="@id/tv_left_content_1"
+            android:layout_toRightOf="@id/tv_left_content_1"
+            android:layout_marginLeft="22px"
+            android:textColor="#333333"
+            android:textSize="36px"
+            android:text="@string/insurance_zfb_pay_price_hint_5"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_right_content_2"
+            android:layout_width="wrap_content"
+            android:layout_alignTop="@id/tv_left_content_2"
+            android:layout_alignLeft="@id/tv_right_content_1"
+            android:textColor="#333333"
+            android:textSize="36px"
+            android:text="@string/insurance_zfb_pay_price_hint_5"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_right_content_3"
+            android:layout_width="wrap_content"
+            android:layout_alignTop="@id/tv_left_content_3"
+            android:layout_alignLeft="@id/tv_right_content_1"
+            android:textColor="#333333"
+            android:textSize="36px"
+            android:text="@string/insurance_zfb_pay_price_hint_5"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_right_content_4"
+            android:layout_width="wrap_content"
+            android:layout_alignTop="@id/tv_left_content_4"
+            android:layout_alignLeft="@id/tv_right_content_1"
+            android:textColor="#FA6400"
+            android:textSize="36px"
+            android:text="@string/insurance_zfb_pay_price_hint_5"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_right_content_5"
+            android:layout_width="wrap_content"
+            android:layout_alignTop="@id/tv_left_content_5"
+            android:layout_alignLeft="@id/tv_right_content_1"
+            android:textColor="#FA6400"
+            android:textSize="36px"
+            android:text="@string/insurance_zfb_pay_price_hint_5"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_right_content_6"
+            android:layout_width="wrap_content"
+            android:layout_alignTop="@id/tv_left_content_6"
+            android:layout_alignLeft="@id/tv_right_content_1"
+            android:textColor="#FA6400"
+            android:textSize="36px"
+            android:text="@string/insurance_zfb_pay_price_hint_5"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_qrcode"
+        android:layout_width="842px"
+        android:background="@drawable/img_scan_pay"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_wechat_pay"
+            android:layout_width="403px"
+            android:textSize="45px"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/insurance_refund_text_wechat"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_height="100px" />
+
+        <TextView
+            android:id="@+id/tv_ali_pay"
+            android:layout_width="403px"
+            android:layout_height="100px"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:background="@drawable/img_activity_insurance_joint"
+            android:text="@string/insurance_pay_text_1"
+            android:textColor="#FFFFFF"
+            android:textSize="45px" />
+        <ImageView
+            android:layout_width="405px"
+            android:layout_height="397px"
+            android:layout_centerInParent="true"
+            android:id="@+id/imageView2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/insurance_pay_text_2"
+            android:textSize="36px"
+            android:textColor="#333333"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="13px"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

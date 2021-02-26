@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<com.example.administrator.myapplication.views.LayoutInflaterTestView
+
+    android:id="@+id/ll"
+    android:layout_width="600px"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark"
+    android:orientation="vertical"
+    >
+
+</com.example.administrator.myapplication.views.LayoutInflaterTestView>
+</FrameLayout>

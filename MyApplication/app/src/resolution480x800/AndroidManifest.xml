@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.administrator">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- <uses-permission android:name="android.permission.READ_LOGS" /> -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- 要存储文件或者创建文件夹的话还需要以下两个权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+    <!-- <uses-permission android:name="android.permission.INTERNET"/> -->
+    <!-- 允许读取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 允许读取wifi网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name=".myapplication.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon"
+        android:windowSoftInputMode="stateHidden|stateAlwaysHidden">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/rc_file_path" />
+        </provider> <!-- QQ -->
+        <activity android:name=".myapplication.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".myapplication.activitys.RecylerViewActivity" />
+        <activity android:name="com.example.administrator.myapplication.kotlinclass.activate.ResolutionActivity" />
+        <activity android:name=".myapplication.activitys.JNIActivity" />
+        <activity android:name=".myapplication.activitys.GlideActivity" />
+        <activity android:name=".myapplication.activitys.ThreadPoolActivity" />
+        <activity android:name=".myapplication.activitys.CameraActivity" />
+        <activity android:name=".myapplication.activitys.CameraKitActivity" />
+        <activity android:name=".myapplication.activitys.CameraDetectionActivity" />
+        <activity android:name=".myapplication.activitys.JsonActivity" />
+        <activity android:name=".myapplication.activitys.ClassDynamicActivity" />
+        <activity android:name=".myapplication.activitys.OkHttpActivity" />
+        <activity android:name=".myapplication.activitys.BluetoothActivity" />
+        <activity android:name=".myapplication.activitys.RecordActivity" />
+
+        <service
+            android:name=".myapplication.service.MyService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.accessibilityservice.AccessibilityService" /> -->
+            <!-- </intent-filter> -->
+            <!-- <meta-data -->
+            <!-- android:name="android.accessibilityservice" -->
+            <!-- /> -->
+        </service>
+
+        <receiver android:name=".myapplication.receiver.WifiReceiver">
+            <intent-filter>
+                <action android:name="android.net.wifi.RSSI_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".myapplication.activitys.WifiActivity" />
+        <activity android:name=".myapplication.activitys.ProgressBarActivity" />
+        <activity android:name=".myapplication.activitys.FragmentActivity" />
+        <activity android:name=".myapplication.activitys.ProgressBar2Activity" />
+        <activity android:name=".myapplication.activitys.RollActivity" />
+        <activity android:name=".myapplication.activitys.SharedPreferencesActivity" />
+        <activity android:name=".myapplication.activitys.SharedPreferences2Activity" />
+        <activity android:name=".myapplication.activitys.StickyEventActivity" />
+        <activity android:name=".myapplication.activitys.ReceiveStickyEventActivity" />
+        <activity android:name=".androidart.activites.AndroidArtActivity" />
+        <activity android:name=".androidart.activites.AndroidIpcActivity" />
+        <activity android:name=".androidart.activites.FilePublicActivity" />
+        <activity
+            android:name=".androidart.activites2.FilePublic2Activity"
+            android:process=":remote" />
+        <activity android:name=".androidart.activites.MessengerActivity" />
+
+        <service
+            android:name=".androidart.service.MessengerService"
+            android:process="com.example.administrator.androidart.service" />
+        <service
+            android:name=".androidart.service.BookManagerService"
+            android:process=":remote" />
+
+        <activity
+            android:name=".androidart.activites.AidlActivity"
+            android:process=":remote" />
+        <activity android:name=".androidart.activites.TestActivity" />
+        <activity
+            android:name=".androidart.activites2.Aidl2Activity"
+            android:process=":remote" />
+        <activity android:name=".myapplication.activitys.ContextStartActivity" />
+
+        <service android:name=".androidart.service.SameService" />
+
+        <activity android:name=".myapplication.activitys.NActivityStartServiceActivity" />
+        <activity android:name=".myapplication.activitys.NActivityStartService2Activity" />
+        <activity android:name=".androidart.activites.ContentProviderActivity" />
+
+        <provider
+            android:name=".androidart.provider.BookContentProvider"
+            android:authorities="com.zyb.provider"
+            android:process=":remote" />
+
+        <activity android:name=".myapplication.activitys.LayoutInflaterActivity" />
+        <activity
+            android:name=".androidart.activites.SocketActivity"
+            android:process=":remote" />
+
+        <service
+            android:name=".androidart.service.TCPServerService"
+            android:process=":remote" />
+
+        <activity
+            android:name=".androidart.activites.BinderActivity"
+            android:process=":remote" />
+
+        <service
+            android:name=".androidart.service.BinderPoolService"
+            android:process=":remote" />
+
+        <activity android:name=".myapplication.activitys.ReplaceQQHeadPortraitActivity" />
+        <activity android:name=".myapplication.activitys.ClipImageActivity" />
+        <activity android:name=".myapplication.activitys.NetDialogActivity" />
+        <activity android:name=".myapplication.activitys.FrameLayoutActivity" />
+        <activity android:name=".androidart.activites.ViewSpeedDetectActivity" />
+        <activity android:name=".myapplication.activitys.RecyclerViewAdapterActivity" />
+        <activity android:name=".androidart.activites.ViewEventActivity" />
+        <activity android:name=".androidart.activites.ViewGeneralSlideActivity" />
+        <activity android:name=".androidart.activites.MoreScrollActivity" />
+        <activity android:name=".androidart.activites.Demo1Activity" />
+        <activity android:name=".androidart.activites.Demo2Activity" />
+        <activity android:name=".androidart.activites.Demo3Activity" />
+        <activity android:name=".androidart.activites.ViewRandomSlideActivity" />
+        <activity android:name=".myapplication.activitys.CustomScanViewActivity" />
+        <activity android:name=".androidart.activites.ViewElasticSlideActivity" />
+        <activity android:name=".androidart.activites.ViewScrollerSlideActivity" />
+        <activity android:name=".myapplication.activitys.HiddenKeyboardActivity" />
+        <activity android:name=".androidart.activites.ValueAnimatorActivity" />
+        <activity android:name=".androidart.activites.ViewEventDistributionActivity" />
+        <activity android:name=".androidart.activites.ViewEventDistribution1Activity" />
+        <activity android:name=".androidart.activites.ViewEventDistribution2Activity" />
+        <activity android:name=".androidart.activites.ViewEventDistribution3Activity" />
+        <activity android:name=".androidart.activites.ViewEventDistribution4Activity" />
+        <activity android:name=".androidart.activites.ViewEventDistribution5Activity" />
+        <activity android:name=".androidart.activites.ViewEventDistribution6Activity" />
+        <activity android:name=".androidart.activites.ViewEventDistribution7Activity" />
+        <activity android:name=".androidart.activites.ViewSlideConflictActivity" />
+        <activity android:name=".androidart.activites.OutInterceptEventActivity" />
+        <activity android:name=".androidart.activites.ViewEventDistribution8Activity" />
+        <activity android:name=".myapplication.activitys.TestListActivity" />
+        <activity android:name=".androidart.activites.ManufacuringSlideConflictActivity" />
+        <activity android:name=".androidart.activites.InIntercaptEventActivity" />
+        <activity android:name=".androidart.activites.ScrollAndButtonInterceptEventActivity" />
+        <activity android:name=".androidart.activites.ScrollAndListIntercaptEventActivity" />
+        <activity android:name=".androidart.activites.OutInterceptEvent2Activity" />
+        <activity android:name=".androidart.activites.InIntercaptEvent2Activity" />
+        <activity android:name=".myapplication.activitys.DebugActivity" />
+        <activity android:name=".androidart.activites.CustomViewActivity" />
+        <activity android:name=".myapplication.activitys.JavaBaseActivity" />
+        <activity
+            android:name=".androidart.activites.RemoteViewsActivity"
+            android:process=":remote" />
+        <activity android:name=".androidart.activites.GeneralNotificationActivity" />
+        <activity android:name=".androidart.activites.NotificationActivity" />
+        <activity android:name=".androidart.activites.RemoteViewsNotificationActivity" />
+        <activity android:name=".androidart.activites.DemoActivity_1" />
+        <activity android:name=".androidart.activites.DemoActivity_2" />
+        <activity android:name=".myapplication.activitys.TestActivity" />
+        <activity android:name=".androidart.activites.SimulationNotificationActivity" />
+        <activity
+            android:name=".androidart.activites2.DemoActivity_2"
+            android:exported="true"
+            android:label="@string/title_scene_2"
+            android:process="com.example.administrator.androidart.activites2" />
+
+        <receiver android:name=".androidart.provider.MyAppWidgetProvider">
+            <intent-filter>
+                <action android:name="AppWidgetProvider_ClickAction" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_provider_info" />
+        </receiver>
+
+        <activity android:name=".androidart.activites.DrawableActivity" />
+        <activity android:name=".androidart.activites.BitmapDrawableActivity" />
+        <activity android:name=".androidart.activites.ShapeDrawableActivity" />
+        <activity android:name=".androidart.activites.NinePatchDrawableActivity" />
+        <activity android:name=".androidart.activites.LayoutDrawableActivity" />
+        <activity android:name=".myapplication.activitys.ThreadBlockActivity" />
+        <activity android:name=".androidart.activites.StateListDrawableActivity" />
+        <activity android:name=".androidart.activites.LevelListDrawableActivity" />
+        <activity android:name=".androidart.activites.TransitionDrawableActivity" />
+        <activity android:name=".androidart.activites.InsertDrawableActivity" />
+        <activity android:name=".androidart.activites.ScaleDrawableActivity" />
+        <activity android:name=".androidart.activites.ClipDrawableActivity" />
+        <activity android:name=".androidart.activites.CustomDrawableActivity" />
+        <activity android:name=".androidart.activites.CustomDrawable2Activity" />
+        <activity android:name=".androidart.activites.AnimationActivity" />
+        <activity android:name=".androidart.activites.AnimationXmlActivity" />
+        <activity android:name=".androidart.activites.AnimationJavaActivity" />
+        <activity android:name=".androidart.activites.CustomAnimationActivity" />
+        <activity android:name=".androidart.activites.AnimationDrawableActivity" />
+        <activity android:name=".androidart.activites.LayoutAnimationActivity" />
+        <activity android:name=".myapplication.activitys.AndserverActivity" />
+
+        <service android:name=".myapplication.service.ServerService" />
+
+        <activity android:name=".myapplication.activitys.MemoryActivity" />
+        <activity android:name=".androidart.activites.LayoutAnimationJavaActivity" />
+        <activity android:name=".androidart.activites.ActivityAnimationEffectActivity" />
+        <activity android:name=".androidart.activites.ObjectAnimationXmlActivity" />
+        <activity android:name=".androidart.activites.AnyAttributeAnnimationActivity" />
+        <activity android:name=".androidart.activites.ValueAnimationActivity" />
+        <activity android:name=".myapplication.activitys.StartCommandActivity" />
+
+        <service android:name=".myapplication.service.StartCommandService" />
+
+        <activity android:name=".myapplication.MoreStartCommandActivity" />
+        <activity android:name=".androidart.activites.WindowActivity" />
+        <activity
+            android:name=".androidart.activites.SimpleWindowActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".androidart.activites.SystemWindowActivity" />
+        <activity android:name=".myapplication.activitys.DemoActivity" />
+        <activity android:name=".myapplication.activitys.DynamicRegistActivity" />
+        <activity android:name=".myapplication.activitys.MoreActivityStartServiceActivity" />
+        <activity
+            android:name=".myapplication.activitys.MoreActivityStartService2Activity"
+            android:process="com.example.administrator.myapplication.activitys.MoreActivityStartService2Activity" />
+
+        <service android:name=".myapplication.service.StartCommand2Service" />
+
+        <activity android:name=".androidart.activites.ThreadAndThreadPooActivity" />
+        <activity android:name=".myapplication.activitys.MyTest2Activity" />
+        <activity android:name=".androidart.activites.VolatileActivity" />
+        <activity android:name=".androidart.activites.BitmapLoadAndCacheActivity" />
+        <activity android:name=".androidart.activites.ImageLoaderActivity" />
+        <activity android:name=".androidart.activites.BitmapLoadActivity" />
+        <activity android:name=".androidart.activites.CrashActivity" />
+        <activity android:name=".androidart.activites.ComprehensiveActivity" />
+        <activity android:name=".myapplication.activitys.ProxyActivity" />
+        <activity android:name=".androidart.activites.PerformanceOptimizeActivity" />
+        <activity android:name=".androidart.activites.MergeActivity" />
+        <activity android:name=".androidart.activites.ViewStubActivity" />
+        <activity android:name=".myapplication.activitys.OtherKnowledgeActivity" />
+
+        <provider
+            android:name=".myapplication.provider.ContactsContentProvider"
+            android:authorities="kk" />
+
+        <activity android:name=".myapplication.activitys.VolleyActivity" />
+        <activity android:name=".myapplication.activitys.ListAndRecyclerCollideActivity" />
+        <activity android:name=".myapplication.activitys.LocationActivity" />
+        <activity android:name=".androidart.activites.AppWidgetProviderActivity" />
+
+        <service
+            android:name=".androidart.service.ListViewService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <activity
+            android:name=".myapplication.activitys.EventBusActivity"
+            android:process="com.example.administrator.myapplication.activitys" />
+        <activity android:name=".myapplication.kotlinclass.activate.MvvpActivity" />
+        <activity android:name=".myapplication.activitys.Main3Activity"></activity>
+    </application>
+
+</manifest>

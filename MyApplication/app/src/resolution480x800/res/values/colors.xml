@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--透明度百分比 : 8位颜色值前两位-->
+    <!--100% : FF-->
+    <!--95% : F2-->
+    <!--90% : E6-->
+    <!--85% : D9-->
+    <!--80% : CC-->
+    <!--75% : BF-->
+    <!--70% : B3-->
+    <!--65% : A6-->
+    <!--60% : 99-->
+    <!--55% : 8C-->
+    <!--50% : 80-->
+    <!--45% : 73-->
+    <!--40% : 66-->
+    <!--35% : 59-->
+    <!--30% : 4D-->
+    <!--25% : 40-->
+    <!--20% : 33-->
+    <!--15% : 26-->
+    <!--10% : 1A-->
+    <!--5% : 0D-->
+    <!--0% : 00-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#ff0000</color>
+    <color name="color_main_green">#00FF00</color>
+    <color name="color_0091FF">#0091FF</color>
+
+    <color name="theme_color">#12CB65</color>
+    <color name="color_00997F">#00997F</color>
+    <!--<color name="color1D2925">#1D2925</color>-->
+    <!---->
+    <color name="startColor">#BDFFF7</color>
+    <color name="white_transport_0">#02856F</color>
+    <color name="white_transport_1">#00C3A1</color>
+
+    <color name="white_transport_2">#008E76</color>
+    <color name="white_transport_3">#00C3A1</color>
+    <!--<color name="white_transport_0">#EEFFFFFF</color>-->
+    <!--<color name="white_transport_1">#CCFFFFFF</color>-->
+    <!--<color name="white_transport_2">#88FFFFFF</color>-->
+    <!--<color name="white_transport_3">#44FFFFFF</color>-->
+    <color name="white">#FFFFFF</color>
+    <color name="green_15">#15BA7D</color>
+    <color name="yellow">#FFCD00</color>
+
+    <color name="yellow_2">#FFEF00</color>
+    <color name="disable">#999999</color>
+    <color name="disable2">#f8f8f8</color>
+    <color name="light_middle_grey">#666666</color>
+    <color name="deep_60_green">#99267E02</color>
+    <color name="colorAccent_1">#00C3A2</color>
+    <color name="green">#32AF00</color>
+    <color name="green2">#00FF73</color>
+
+    <color name="light_gray">#999999</color>
+    <color name="sky_blue">#0BA8EF</color>
+    <color name="sky_blue_80">#330BA8EF</color>
+    <color name="orange">#FF9601</color>
+    <color name="blue_">#11A9EF</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="blue__">#1CCFC9</color>
+    <color name="black">#7F000000</color>
+    <color name="color4F9689">#4F9689</color>
+    <color name="color00FFD4">#00FFD4</color>
+    <color name="colorFFFFFF">#FFFFFF</color>
+    <color name="color00997F">#00997F</color>
+    <color name="color1D2925">#1D2925</color>
+    <color name="black2">#8C000000</color>
+    <color name="blue">#99FFEE</color>
+
+    <!--<color name="white_transport_0">#02856F</color>-->
+    <!--<color name="white_transport_1">#00F8CC</color>-->
+    <!--<color name="white"> #BDFFF7 </color>-->
+    <!--<color name="white_transport_2">#008E76</color>-->
+    <!--<color name="white_transport_3">#00F8CC</color>-->
+    <!--<color name="green">#32AF00</color>-->
+    <!--<color name="theme_color">#BDFFF7</color>-->
+
+</resources>

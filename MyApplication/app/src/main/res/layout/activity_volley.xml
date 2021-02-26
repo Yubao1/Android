@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16px"
+    android:paddingRight="16px"
+    android:paddingTop="16px"
+    android:paddingBottom="16px">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"/>
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/nv_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_image"
+        android:layout_marginTop="20dp"
+        ></com.android.volley.toolbox.NetworkImageView>
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="发送请求"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

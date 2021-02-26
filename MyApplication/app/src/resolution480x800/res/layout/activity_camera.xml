@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.activitys.CameraActivity">
+    <Button
+        android:id="@+id/btn_front_take_photo"
+        android:layout_width="match_parent"
+        android:text="前置摄像头拍照"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_behind_take_photo"
+        android:layout_width="match_parent"
+        android:text="后置摄像头拍照"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_behind_test_take_photo"
+        android:layout_width="match_parent"
+        android:text="判断后置摄像头是否可以打开"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_phone_version"
+        android:layout_width="match_parent"
+        android:textSize="30px"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+</LinearLayout>

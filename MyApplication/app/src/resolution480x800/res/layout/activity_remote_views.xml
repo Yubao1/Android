@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.androidart.activites.RemoteViewsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_general_notification"
+            android:layout_width="match_parent"
+            android:text="一般的通知栏"
+            android:onClick="onClick"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_remote_views_notification"
+            android:layout_width="match_parent"
+            android:text="使用RemoteViews的通知栏"
+            android:onClick="onClick"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_simulation_notification"
+            android:layout_width="match_parent"
+            android:text="使用RemoteViews的模拟通知栏"
+            android:onClick="onClick"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_app_widget_provider"
+            android:layout_width="match_parent"
+            android:text="AppWidgetProvider使用"
+            android:onClick="onClick"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/remote_views_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#ff0000"
+                android:layout_height="30px" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

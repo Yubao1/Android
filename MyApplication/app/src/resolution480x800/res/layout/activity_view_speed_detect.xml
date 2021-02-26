@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.androidart.activites.ViewSpeedDetectActivity">
+     <LinearLayout
+         android:id="@+id/ll"
+         android:layout_width="wrap_content"
+         android:orientation="vertical"
+         android:layout_height="wrap_content">
+     <TextView
+         android:id="@+id/tv"
+         android:layout_width="match_parent"
+         android:text="当前速度"
+         android:layout_height="wrap_content" />
+     <TextView
+         android:id="@+id/tv_scroll_by"
+         android:layout_width="match_parent"
+         android:text="测试scrollBy滑动"
+         android:layout_height="wrap_content" />
+     </LinearLayout>
+     <!--<com.example.administrator.androidart.views.MyViewGroup-->
+         <!--android:id="@+id/view"-->
+         <!--android:layout_width="match_parent"-->
+         <!--android:background="#FF0000"-->
+         <!--android:layout_height="200dp">-->
+
+     <!--</com.example.administrator.androidart.views.MyViewGroup>-->
+</LinearLayout>

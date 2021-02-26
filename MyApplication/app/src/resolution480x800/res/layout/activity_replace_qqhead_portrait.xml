@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="头像"
+                android:textColor="#ff000000"
+                android:textSize="13sp" />
+
+            <com.example.administrator.myapplication.views.CircleImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="onClick"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="17dp"
+                android:src="#ED1731" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_nick"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="昵称"
+                android:textColor="#ff000000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_nick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:lines="1"
+                android:text="小二"
+                android:textColor="#ff000000"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_sex"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="性别"
+                android:textColor="#ff000000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:text="男"
+                android:textColor="#ff000000"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

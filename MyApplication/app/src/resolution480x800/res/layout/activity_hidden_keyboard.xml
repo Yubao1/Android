@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:onClick="onClick"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.myapplication.activitys.HiddenKeyboardActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="点击输入框可弹出输入法键盘，点击输入框外面可消失键盘"
+        android:layout_height="wrap_content" />
+</LinearLayout>

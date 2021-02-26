@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.androidart.activites.ScrollAndButtonInterceptEventActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="btn1"-->
+                <!--android:layout_height="match_parent" />-->
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="btn2"-->
+                <!--android:layout_height="match_parent" />-->
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="btn3"-->
+                <!--android:layout_height="match_parent" />-->
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="btn4"-->
+                <!--android:layout_height="match_parent" />-->
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="btn5"-->
+                <!--android:layout_height="match_parent" />-->
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="btn6"-->
+                <!--android:layout_height="match_parent" />-->
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="btn7"-->
+                <!--android:layout_height="match_parent" />-->
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="btn8"-->
+                <!--android:layout_height="match_parent" /><Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="btn9"-->
+            <!--android:layout_height="match_parent" /><Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="btn10"-->
+            <!--android:layout_height="match_parent" /><Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="btn11"-->
+            <!--android:layout_height="match_parent" /><Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="btn12"-->
+            <!--android:layout_height="match_parent" /><Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="btn13"-->
+            <!--android:layout_height="match_parent" /><Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="btn14"-->
+            <!--android:layout_height="match_parent" />-->
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="btn15"-->
+                <!--android:layout_height="match_parent" /><Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="btn16"-->
+            <!--android:layout_height="match_parent" /><Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="btn17"-->
+            <!--android:layout_height="match_parent" /><Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="btn18"-->
+            <!--android:layout_height="match_parent" />-->
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

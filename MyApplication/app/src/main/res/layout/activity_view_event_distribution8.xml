@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.androidart.activites.ViewEventDistribution8Activity">
+    <com.example.administrator.androidart.views.MyLinearLayout3
+        android:layout_width="match_parent"
+        android:background="#00FF00"
+        android:layout_height="300dp">
+        <com.example.administrator.androidart.views.MyButton7
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:background="#0000FF"
+            android:text="这是一个子元素"
+            android:layout_height="100dp"
+            />
+    </com.example.administrator.androidart.views.MyLinearLayout3>
+</LinearLayout>

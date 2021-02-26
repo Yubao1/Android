@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.flurgle.camerakit.CameraView
+        android:id="@+id/camera_kit_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"/>
+
+    <Button
+        android:id="@+id/bt_take_photo_kit"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:layout_marginBottom="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:text="拍照"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

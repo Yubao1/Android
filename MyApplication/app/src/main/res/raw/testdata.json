@@ -1,0 +1,360 @@
+{
+  "brand": "华为",
+  "brandId": 8,
+  "detailId": 9830,
+  "estimateOptions": {
+    "auto": {
+      "title": "自动检测",
+      "typeData": {
+        "GPS传感器": {
+          "id": 106,
+          "options": [{
+            "subId": 485,
+            "subTitle": "正常"
+          }, {
+            "subId": 486,
+            "subTitle": "不正常"
+          }],
+          "sort": 7,
+          "title": "GPS传感器"
+        },
+        "ROM": {
+          "id": 132,
+          "options": [{
+            "subId": 1685,
+            "subTitle": "32GB"
+          }, {
+            "subId": 1686,
+            "subTitle": "64GB"
+          }],
+          "sort": 25,
+          "title": "ROM"
+        },
+        "充电功能": {
+          "id": 117,
+          "options": [{
+            "subId": 508,
+            "subTitle": "正常"
+          }, {
+            "subId": 509,
+            "subTitle": "不正常"
+          }],
+          "sort": 19,
+          "title": "充电功能"
+        },
+        "加速感应器": {
+          "id": 108,
+          "options": [{
+            "subId": 489,
+            "subTitle": "正常"
+          }, {
+            "subId": 490,
+            "subTitle": "不正常"
+          }],
+          "sort": 9,
+          "title": "加速感应器"
+        },
+        "指纹功能": {
+          "id": 113,
+          "options": [{
+            "subId": 499,
+            "subTitle": "正常"
+          }, {
+            "subId": 500,
+            "subTitle": "无法使用"
+          }],
+          "sort": 22,
+          "title": "指纹功能"
+        },
+        "数字指南针": {
+          "id": 107,
+          "options": [{
+            "subId": 487,
+            "subTitle": "正常"
+          }, {
+            "subId": 488,
+            "subTitle": "不正常"
+          }],
+          "sort": 8,
+          "title": "数字指南针"
+        },
+        "无线功能": {
+          "id": 77,
+          "options": [{
+            "subId": 419,
+            "subTitle": "正常"
+          }, {
+            "subId": 420,
+            "subTitle": "无法使用"
+          }],
+          "sort": 3,
+          "title": "无线功能"
+        },
+        "蓝牙": {
+          "id": 130,
+          "options": [{
+            "subId": 1328,
+            "subTitle": "正常"
+          }, {
+            "subId": 1329,
+            "subTitle": "不正常"
+          }],
+          "sort": 4,
+          "title": "蓝牙"
+        },
+        "触摸功能": {
+          "id": 72,
+          "options": [{
+            "subId": 410,
+            "subTitle": "正常"
+          }, {
+            "subId": 411,
+            "subTitle": "不正常"
+          }],
+          "sort": 14,
+          "title": "触摸功能"
+        },
+        "账户锁": {
+          "id": 114,
+          "options": [{
+            "subId": 1700,
+            "subTitle": "正常"
+          }, {
+            "subId": 1701,
+            "subTitle": "不正常"
+          }],
+          "sort": 23,
+          "title": "账户锁"
+        },
+        "距离传感器": {
+          "id": 127,
+          "options": [{
+            "subId": 1322,
+            "subTitle": "正常"
+          }, {
+            "subId": 1323,
+            "subTitle": "不正常"
+          }],
+          "sort": 4,
+          "title": "距离传感器"
+        },
+        "陀螺仪": {
+          "id": 109,
+          "options": [{
+            "subId": 491,
+            "subTitle": "正常"
+          }, {
+            "subId": 492,
+            "subTitle": "不正常"
+          }],
+          "sort": 10,
+          "title": "陀螺仪"
+        },
+        "音量减小按键": {
+          "id": 129,
+          "options": [{
+            "subId": 1326,
+            "subTitle": "正常"
+          }, {
+            "subId": 1327,
+            "subTitle": "不正常"
+          }],
+          "sort": 4,
+          "title": "音量减小按键"
+        },
+        "音量增大按键": {
+          "id": 128,
+          "options": [{
+            "subId": 1324,
+            "subTitle": "正常"
+          }, {
+            "subId": 1325,
+            "subTitle": "不正常"
+          }],
+          "sort": 4,
+          "title": "音量增大按键"
+        },
+        "麦克风": {
+          "id": 104,
+          "options": [{
+            "subId": 481,
+            "subTitle": "正常"
+          }, {
+            "subId": 482,
+            "subTitle": "不正常"
+          }],
+          "sort": 5,
+          "title": "麦克风"
+        }
+      },
+      "typeId": 1
+    },
+    "manual": {
+      "title": "手动检测",
+      "typeData": {
+        "前置摄像头": {
+          "id": 101,
+          "options": [{
+            "subId": 475,
+            "subTitle": "正常/无前置摄像头"
+          }, {
+            "subId": 476,
+            "subTitle": "不正常"
+          }],
+          "sort": 1,
+          "title": "前置摄像头"
+        },
+        "后置摄像头": {
+          "id": 102,
+          "options": [{
+            "subId": 477,
+            "subTitle": "正常"
+          }, {
+            "subId": 478,
+            "subTitle": "不正常"
+          }],
+          "sort": 2,
+          "title": "后置摄像头"
+        },
+        "听筒": {
+          "id": 111,
+          "options": [{
+            "subId": 495,
+            "subTitle": "正常"
+          }, {
+            "subId": 496,
+            "subTitle": "不正常"
+          }],
+          "sort": 12,
+          "title": "听筒"
+        },
+        "屏幕外观": {
+          "id": 71,
+          "options": [{
+            "subId": 30412,
+            "subTitle": "无划痕无碎裂"
+          }, {
+            "subId": 30413,
+            "subTitle": "有划痕"
+          }, {
+            "subId": 30414,
+            "subTitle": "缺角/碎裂/更换"
+          }],
+          "sort": 16,
+          "title": "屏幕外观"
+        },
+        "扬声器": {
+          "id": 105,
+          "options": [{
+            "subId": 483,
+            "subTitle": "正常"
+          }, {
+            "subId": 484,
+            "subTitle": "不正常"
+          }],
+          "sort": 6,
+          "title": "扬声器"
+        },
+        "振动传感器": {
+          "id": 103,
+          "options": [{
+            "subId": 479,
+            "subTitle": "正常"
+          }, {
+            "subId": 480,
+            "subTitle": "不正常"
+          }],
+          "sort": 4,
+          "title": "振动传感器"
+        },
+        "液晶显示": {
+          "id": 79,
+          "options": [{
+            "subId": 30851,
+            "subTitle": "正常显示"
+          }, {
+            "subId": 30852,
+            "subTitle": "亮、坏点色差/轻微发黄/轻微老化"
+          }, {
+            "subId": 30854,
+            "subTitle": "色斑/漏液/错乱/四周发黄/条纹/非原液晶"
+          }, {
+            "subId": 30855,
+            "subTitle": "液晶无法显示"
+          }],
+          "sort": 15,
+          "title": "液晶显示"
+        },
+        "维修拆机史": {
+          "id": 115,
+          "options": [{
+            "subId": 31032,
+            "subTitle": "无拆机无维修"
+          }, {
+            "subId": 31033,
+            "subTitle": "触屏维修/更换"
+          }, {
+            "subId": 31034,
+            "subTitle": "主板维修/严重维修"
+          }],
+          "sort": 20,
+          "title": "维修拆机史"
+        },
+        "边框背板": {
+          "id": 112,
+          "options": [{
+            "subId": 30295,
+            "subTitle": "无划痕无磕碰"
+          }, {
+            "subId": 30296,
+            "subTitle": "有划痕/磕碰/掉漆/更换/破碎/电池鼓包"
+          }, {
+            "subId": 30297,
+            "subTitle": "机身弯曲"
+          }],
+          "sort": 17,
+          "title": "边框背板"
+        },
+
+        "进水问题": {
+          "id": 116,
+          "options": [{
+            "subId": 38993,
+            "subTitle": "无进水无受潮"
+          }, {
+            "subId": 38994,
+            "subTitle": "机身进水或受潮"
+          }],
+          "sort": 21,
+          "title": "进水问题"
+        },
+
+        "通话功能": {
+          "id": 76,
+          "options": [{
+            "subId": 495,
+            "subTitle": "正常"
+          }, {
+            "subId": 496,
+            "subTitle": "不正常"
+          }],
+          "sort": 13,
+          "title": "通话功能"
+        },
+        "闪光灯": {
+          "id": 110,
+          "options": [{
+            "subId": 493,
+            "subTitle": "正常"
+          }, {
+            "subId": 494,
+            "subTitle": "不正常"
+          }],
+          "sort": 11,
+          "title": "闪光灯"
+        }
+
+      }
+    }
+  }
+}

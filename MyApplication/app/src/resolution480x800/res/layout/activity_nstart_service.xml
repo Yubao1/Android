@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.activitys.NActivityStartServiceActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#00FF00"
+        android:text="正在启动服务"
+        android:gravity="center"
+        android:layout_height="50px" />
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#00FF00"
+        android:text="点击这里启动另外一个Activity"
+        android:layout_marginTop="10px"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:layout_height="50px" />
+</LinearLayout>

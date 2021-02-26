@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.androidart.activites.AnimationActivity">
+    <!--<ImageView-->
+        <!--android:id="@+id/iv"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:src="@drawable/ic_launcher_background"-->
+        <!--android:layout_height="50dp" />-->
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:onClick="onClickView"
+        android:text="view动画的XML开启动画"
+        android:background="#00FF00"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10px"
+        android:background="#00FF00"
+        android:onClick="onClickView"
+        android:text="view动画的Java开启动画"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10px"
+        android:background="#00FF00"
+        android:onClick="onClickView"
+        android:text="自定义View动画"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10px"
+        android:background="#00FF00"
+        android:onClick="onClickView"
+        android:text="帧动画"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10px"
+        android:background="#00FF00"
+        android:onClick="onClickView"
+        android:text="LayoutAnimation的xml文件启动动画"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10px"
+        android:background="#00FF00"
+        android:onClick="onClickView"
+        android:text="LayoutAnimation的Java文件启动动画"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_7"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10px"
+        android:background="#00FF00"
+        android:onClick="onClickView"
+        android:text="Activity的动画切换效果"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_8"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10px"
+        android:background="#00FF00"
+        android:onClick="onClickView"
+        android:text="ObjectAnimation的xml文件启动动画"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_9"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10px"
+        android:background="#00FF00"
+        android:onClick="onClickView"
+        android:text="对任意属性做动画"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_10"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10px"
+        android:background="#00FF00"
+        android:onClick="onClickView"
+        android:text="使用ValueAnimation，监听动画过程，实现属性改变"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.activitys.JavaBaseActivity">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:text="测试线程阻塞"
+        android:onClick="onClick"
+        android:background="#00FF00"
+        android:layout_marginTop="10px"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10px"
+        android:text="测试多线程的volatile使用"
+        android:onClick="onClick"
+        android:background="#00FF00"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10px"
+        android:text="创建代理类调用接口方法"
+        android:onClick="onClick"
+        android:background="#00FF00"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10px"
+        android:text="测试ThreadLocal"
+        android:onClick="onClick"
+        android:background="#00FF00"
+        android:layout_height="wrap_content" />
+</LinearLayout>

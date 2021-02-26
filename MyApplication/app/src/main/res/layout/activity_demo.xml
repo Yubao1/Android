@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="false"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:id="@+id/ll_time"
+            android:layout_width="193px"
+            android:layout_height="67px"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="59px"
+            android:layout_marginTop="29px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!--<include-->
+                <!--layout="@layout/layout_time"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+        </LinearLayout>
+        <include
+            android:layout_width="1678px"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170px"
+            android:layout_height="783px"
+            layout="@layout/include_insurance_pay"/>
+
+        <!--底部 “取消”按钮-->
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="360px"
+            android:textColor="#333333"
+            android:textSize="45px"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="72.9px"
+            android:gravity="center"
+            android:text="@string/insurance_procedure_cancel"
+            android:layout_height="122.5px"/>
+    </RelativeLayout>
+</RelativeLayout>

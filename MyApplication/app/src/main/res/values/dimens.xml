@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dm020">20px</dimen>
+    <dimen name="dm030">30px</dimen>
+</resources>

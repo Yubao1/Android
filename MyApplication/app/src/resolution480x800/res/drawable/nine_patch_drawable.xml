@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nine-patch
+    android:src="@drawable/text_frame"
+    android:tileMode="clamp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" />

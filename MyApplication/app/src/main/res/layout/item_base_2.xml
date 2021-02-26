@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#0000ff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_base_title"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="手机"
+            android:paddingLeft="20px"
+            android:textSize="30px"
+            android:gravity="top"
+            android:textColor="#00FFD4"
+            />
+        <com.example.administrator.myapplication.tool.NoScrollView
+            android:id="@+id/rv_base_type_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+
+            android:layout_gravity="top"
+            android:overScrollMode="never"
+            />
+        <ImageView
+            android:id="@+id/iv_item_unselected"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    <View
+        android:id="@+id/dash_line"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:background="#000000"
+
+        />
+</LinearLayout>
+
